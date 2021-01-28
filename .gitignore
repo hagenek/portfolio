@@ -16,3 +16,7 @@ pom.xml.asc
 /node_modules
 /.shadow-cljs/
 /resources/public/js/
+	.calva/
+	.clj-kondo/.cache/
+	.lsp/sqlite.db
+	.rebel_readline_history
