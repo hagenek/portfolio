@@ -1,11 +1,12 @@
-# portfolio
+# Hageneks portfolio site
+
+## Site to display the projects I have been involved in. To show off that I know somewhat how to make viable software.
 
 This is the portfolio project.
 
 ## Development mode
 
 To start the Figwheel compiler, navigate to the project folder and run the following command in the terminal:
-
 ```
 lein figwheel
 ```
