@@ -1,18 +1,19 @@
 .body-container {
-  font-family: Georgia, Verdana, Helvetica, Arial, sans-serif;
+  font-family: Helvetica, Arial, sans-serif;
   max-width: 640px;
   margin: 0 auto;
   padding-top: 72px;
   -webkit-font-smoothing: antialiased;
   font-size: 1.125em;
-  color: #333;
+  background-color: #0b3231;
   line-height: 1.5em;
 }
 
 h1,
 h2,
 h3 {
-  color: #000;
+  text-shadow: 2px 2px #ff0000;
+  color: #f7e017;
 }
 h1 {
   font-size: 2.5em;
@@ -26,9 +27,13 @@ h3 {
   font-size: 1.5em;
 }
 
+p {
+  color: #f7e017;
+}
+
 a {
   text-decoration: none;
-  color: #09f;
+  color: #f7e017;
 }
 
 a:hover {

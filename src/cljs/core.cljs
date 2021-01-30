@@ -5,7 +5,8 @@
    [reagent.session :as session]
    [reitit.frontend :as reitit]
    [clerk.core :as clerk]
-   [accountant.core :as accountant]))
+   [accountant.core :as accountant]
+   [portfolio.components.project :refer [projects]]))
 
 ;; -------------------------
 ;; Routes
@@ -42,10 +43,7 @@
     [:span.main
      [:h1 "The projects in my portfolio"]
      [:h2 "These are my projects"]
-     [:ul (map (fn [item-id]
-                 [:li {:name (str "item-" item-id) :key (str "item-" item-id)}
-                  [:a {:href (path-for :item {:item-id item-id})} "Item: " item-id]])
-               (range 1 5))]]))
+     [projects]]))
 
 
 (defn item-page []
